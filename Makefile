@@ -1,6 +1,6 @@
 # list cad files explicitely to avoid failing ones
 #stp_files := $(wildcard *.step)
-stp_files := PipeCurveRadiusLarger.step PipeSolidFluid.step
+stp_files := PipeCurveRadiusLarger.step
 geo_files := $(wildcard *.geo)
 msh_files := $(stp_files:.step=.msh) $(geo_files:.geo=.msh)
 

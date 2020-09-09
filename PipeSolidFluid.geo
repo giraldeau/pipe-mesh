@@ -2,7 +2,10 @@ SetFactory("OpenCASCADE");
 
 vol() = ShapeFromFile("PipeSolidFluid.step");
 
-// Mesh.CharacteristicLengthFromCurvature = 0.1;
+
+Mesh.CharacteristicLengthFromCurvature = 1;
+Mesh.MinimumElementsPerTwoPi = 20;
+
 
 SyncModel;
 Coherence;
