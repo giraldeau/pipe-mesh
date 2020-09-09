@@ -7,5 +7,5 @@ To compile all the meshes, simply run `make` in a terminal. Assumes that gmsh is
 * PipeBoundaryLayerCurve.geo: Pipe with boundary layer, extruded using a wire (FAIL)
 * PipeBoundaryLayerSimple.geo: Pipe with boundary layer, extruded with translation (OK) 
 * PipeSolidFluid.geo: fluid and solid domains, obtained with a boolean difference between volumes (FAIL)
-
+* CurvedExtrusion.geo: two section extrusion with translation and rotation (OK)
 
